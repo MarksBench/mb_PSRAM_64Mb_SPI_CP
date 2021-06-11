@@ -21,7 +21,7 @@ Version: 0.1, 2021-06-11
 
 Prerequisites:
 - RP2040 silicon (tested with Raspberry Pi Pico), should work with other MCUs with SPI
-- Tested with CircuitPython 6.2, 6.3, and 7
+- Tested with CircuitPython 6.2, 6.3, and 7.0.0-alpha.3
 - PSRAM connected to hardware SPI port0 or port1 pins, should also work with SW SPI
 - Dedicated /CS pin (can be any GP pin that's not already being used for SPI). Do not tie /CS to
   GND - the device requires state changes on /CS to function properly.
